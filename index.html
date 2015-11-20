@@ -33,7 +33,7 @@
   var die=[];  
   var win=true;
   var background=document.createElement('img');
-  background.src='http://p4.so.qhimg.com/bdr/_240_/t012e1be3d7dac235d9.jpg'; 
+  background.src='https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2oGcF12gIdlTJMDeKvY1RaTQHX37DZIoRiq-1_HS5ddLlqvrRTA'; 
   var cheats={
   one:function(){
   length+=5; 
@@ -213,7 +213,7 @@ if(b[i]+8>board.y&&b[i]<board.y){
 	 };}
    var intervalId=setInterval(function(){
    ctx.clearRect(0,0,width,height);
-   ctx.drawImage(background,0,0,width/1.7,height/1.7,0,0,width,height);
+   ctx.drawImage(background,0,0,width/2.5,height/2.25,0,0,width,height);
    board.draw();
    board.move();
     for(i=0;i<balls;i++){
